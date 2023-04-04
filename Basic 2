@@ -161,3 +161,19 @@ if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))
     else 
     printf("Special Character ");
 }
+------------------------------------------------------------------------------------------------------
+Write a program to find maximum and minimum between two numbers?
+
+#include <stdio.h>
+
+int main()
+{
+ int a,b;
+ scanf("%d%d",&a,&b);
+ if(a>b)
+ printf("%d",a);
+ else
+ printf("%d",b);
+
+    return 0;
+}
